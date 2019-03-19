@@ -78,8 +78,8 @@ test_theta = [-24; 0.2; 0.2];
 
 fprintf('\nCost at test theta: %f\n', cost);
 fprintf('Expected cost (approx): 0.218\n');
-fprintf('Gradient at test theta: \n');
-fprintf(' %f \n', grad);
+%fprintf('Gradient at test theta: \n');
+%fprintf(' %f \n', grad);
 fprintf('Expected gradients (approx):\n 0.043\n 2.566\n 2.647\n');
 
 fprintf('\nProgram paused. Press enter to continue.\n');
